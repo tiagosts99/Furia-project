@@ -4,6 +4,7 @@
 #Projeto desenvolvido como parte do Desafio Técnico para Estágio em Engenharia de Software na FURIA Tech!
 #
 
+## 🔥 Sobre o Projeto
 O FURIA ChatBot é um bot para Telegram, criado para aproximar ainda mais a torcida da FURIA do time!
 Aqui, o usuário pode cadastrar seu nickname de CS:GO, acompanhar os jogos, acessar as redes sociais, receber a logo oficial e até mandar aquele grito de guerra que ecoa nos servidores!
 
