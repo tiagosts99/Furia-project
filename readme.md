@@ -81,5 +81,8 @@ Atenção! Jamais insira sua chave da API diretamente no código.
 
 
 ## 🚀 Sobre mim
-[Github](https://github.com/tiagosts99)
+
+**Tiago Santos**
+[Github](https://github.com/tiagosts99) | [linkedin](https://www.linkedin.com/in/tiagosts99/)
+
 
