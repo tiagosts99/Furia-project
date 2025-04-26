@@ -55,7 +55,7 @@ def info_criador(mensagem):
 @bot.message_handler(commands=['time'])
 def info_time(mensagem):
     resposta = ("🔥 Time atual da FURIA (CS:GO):\n"
-                "- KSCERATO\n- yuurih\n- arT\n- chelo\n- FalleN👑\n\n"
+                "- KSCERATO - Kaike Cerato\n- yuurih - Yuri Boian\n- mododoy- Danil Golubenko\n- YEKINDAR -Mareks Galinskis\n- 👑FalleN - Gabrei Toledo\n -sidde - Sodniei Macedo (Coach)\n\n"
                 "🖤 Bora apoiar nossos guerreiros!")
     bot.reply_to(mensagem, resposta)
 
@@ -67,10 +67,10 @@ def enviar_logo(mensagem):
 @bot.message_handler(commands=['redesocial'])
 def redes_sociais(mensagem):
     resposta = ("🔥 Redes sociais da FURIA:\n\n"
-                "Twitter: https://twitter.com/FURIA\n"
-                "Instagram: https://www.instagram.com/furia/\n"
-                "Facebook: https://www.facebook.com/FURIAesports/\n"
-                "YouTube: https://www.youtube.com/c/FURIA\n"
+                "Twitter: https://twitter.com/FURIA\n\n"
+                "Instagram: https://www.instagram.com/furia/\n\n"
+                "Facebook: https://www.facebook.com/FURIAesports/\n\n"
+                "YouTube: https://www.youtube.com/c/FURIA\n\n"
                 "Twitch: https://www.twitch.tv/furia\n\n"
                 "🖤 Poste sua foto com a camisa mais FURIOSA e marque a FURIA nas redes Sociais!")
     bot.reply_to(mensagem, resposta)
@@ -98,11 +98,11 @@ def proximos_jogos(mensagem):
 @bot.message_handler(commands=['grito'])
 def grito(mensagem):
     resposta = ("🔥 FURIOSO(A)!\n\n"
-                "🛡️ NÃO TEM TEMOR!\n"
-                "NÃO TEM RENDIÇÃO!\n"
-                "SOMOS FÚRIA, SOMOS CAMPEÕES! 🔥🐆\n"
-                "#GOFURIA\n\n"
-                "🖤 Solta teu grito nas redes também com a Camisa mais FURIOSA!")
+            "🛡️ NÃO TEM TEMOR!\n"
+            "NÃO TEM RENDIÇÃO!\n"
+            "SOMOS FÚRIA, SOMOS CAMPEÕES! 🔥🐆\n"
+            "#GOFURIA\n\n"
+            "🖤 Solta teu grito nas redes também com a Camisa mais FURIOSA!")
     # Enviar a resposta do comando
     bot.reply_to(mensagem, resposta)
 
@@ -119,16 +119,16 @@ def mensagens_gerais(mensagem):
         user_states[user_id] = "registered"
 
         bot.reply_to(mensagem, f"🔥 Nickname '{texto}' salvo com sucesso!")        
-        bot.send_message(user_id, """🖤 Seja bem-vindo(a) à tropa da FURIA!\n\n
-         "Use os comandos para explorar:
-         1️⃣ Ver informações do time com /time
-         2️⃣ Mostrar seu nickname com /nickname
-         3️⃣ Encontrar as redes Sociais da Furia! /redesocial
-         4️⃣ Receber a logo da FURIA /logo
-         5️⃣ Ver os últimos resultados com /ultimosjogos
-         6️⃣ Ver os próximos jogos com /proximosjogos
-         7️⃣ Solta o grito dos FURIOSOS! /grito
-         8️⃣ Ver informações do criador do bot com /info\n\n""")
+        bot.send_message(user_id, "🖤 Seja bem-vindo(a) à tropa da FURIA!\n\n"
+         "Use os comandos para explorar:\n\n"
+         "1️⃣ Ver informações do time /time\n"
+         "2️⃣ Seu nickname /nickname\n"
+         "3️⃣ Redes Sociais /redesocial\n"
+         "4️⃣ Logo da FURIA /logo\n"
+         "5️⃣ Últimos resultados /ultimosjogos\n"
+         "6️⃣ Próximos jogos /proximosjogos\n"
+         "7️⃣ Solta o grito dos FURIOSOS! /grito\n"
+         "8️⃣ Ver informações do bot /info\n\n")
     else:
         bot.reply_to(mensagem, "Fala FURIOSO(A)! Use /start para começar!")
 
